@@ -2,18 +2,26 @@
 ServerEvents.recipes(event => {
     // #####################################################工作台有序配方“shaped”
     // 删除原版基础镐、斧、铲、剑的制作
-    event.remove({id:'minecraft:wooden_axe'});
-    event.remove({id:'minecraft:stone_axe'});
-    event.remove({id:'minecraft:iron_axe'});
-    event.remove({id:'minecraft:wooden_pickaxe'});
-    event.remove({id:'minecraft:stone_pickaxe'});
-    event.remove({id:'minecraft:iron_pickaxe'});
-    event.remove({id:'minecraft:wooden_sword'});
-    event.remove({id:'minecraft:stone_sword'});
-    event.remove({id:'minecraft:iron_sword'});
-    event.remove({id:'minecraft:wooden_shove'});
-    event.remove({id:'minecraft:stone_shove'});
-    event.remove({id:'minecraft:iron_shove'});
+    // 开头以一对{}限定了代码块，let定义的array_i将仅在此块中生效；随后以for循环进行匹配配方id的删除。
+    {
+        let array_i = [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:wooden_sword",
+            "minecraft:stone_sword",
+            "minecraft:iron_sword",
+            "minecraft:wooden_shove",
+            "minecraft:stone_shove",
+            "minecraft:iron_shove"
+        ];
+        array_i.forEach((i) => {
+            event.remove({id: `${i}`});
+        });
+    };
     // 合成粘土
     event.shaped(Item.of('minecraft:clay_ball',8),[
         'AAA',

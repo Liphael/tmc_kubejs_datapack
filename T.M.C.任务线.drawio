@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="SjzvDCokUyrBaCCknHT0">
+    <mxGraphModel dx="1050" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ldvig654TYtwIduUOJSU-7" value="锻造世代" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="1080" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-8" value="初等熔炼术" style="swimlane;whiteSpace=wrap;html=1;direction=north;" parent="ldvig654TYtwIduUOJSU-7" vertex="1">
+          <mxGeometry x="40" y="40" width="980" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ldvig654TYtwIduUOJSU-8" source="ldvig654TYtwIduUOJSU-3" target="ldvig654TYtwIduUOJSU-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-3" value="获取粘土*8&lt;div&gt;沙子*8&lt;/div&gt;&lt;div&gt;沙砾*8&lt;/div&gt;&lt;div&gt;奖励：沙子*8&lt;/div&gt;&lt;div&gt;沙砾*8&lt;/div&gt;&lt;div&gt;煤炭*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-8" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ldvig654TYtwIduUOJSU-8" source="ldvig654TYtwIduUOJSU-4" target="ldvig654TYtwIduUOJSU-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-4" value="获取砖泥*8&lt;div&gt;玻璃*8&lt;br&gt;&lt;div&gt;焦黑砖*8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;奖励：焦黑砖*8&lt;/div&gt;&lt;div&gt;煤炭*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-8" vertex="1">
+          <mxGeometry x="200" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-5" value="获取焦黑材料量器*1&lt;div&gt;焦黑熔化炉*1&lt;br&gt;&lt;div&gt;焦黑燃料储罐*1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;焦黑浇注台*1&lt;/div&gt;&lt;div&gt;焦黑浇注口*1&lt;/div&gt;&lt;div&gt;奖励：焦黑砖*8&lt;/div&gt;&lt;div&gt;煤炭*2&lt;/div&gt;&lt;div&gt;沙子*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-8" vertex="1">
+          <mxGeometry x="360" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-6" value="制作4个沙质模具&lt;div&gt;浇注4个铁锭&lt;div&gt;奖励：&lt;/div&gt;&lt;div&gt;4个铁矿石&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-8" vertex="1">
+          <mxGeometry x="520" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ldvig654TYtwIduUOJSU-8" source="ldvig654TYtwIduUOJSU-5" target="ldvig654TYtwIduUOJSU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-22" value="获取锻造台*1&lt;div&gt;奖励：&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ldvig654TYtwIduUOJSU-8">
+          <mxGeometry x="40" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-7" value="维度灾变" style="swimlane;horizontal=1;whiteSpace=wrap;html=1;flipH=0;direction=north;verticalAlign=middle;" vertex="1" parent="ldvig654TYtwIduUOJSU-7">
+          <mxGeometry x="40" y="440" width="980" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-16" value="获取机械之眼*1&lt;div&gt;奖励：红石块*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-7">
+          <mxGeometry x="40" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-17" value="找到远古工厂&lt;div&gt;获得进度远古文明&lt;br&gt;&lt;div&gt;奖励：红石块*2&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-7">
+          <mxGeometry x="200" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-18" value="击杀徘徊者*1&lt;div&gt;奖励：红石块*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-7">
+          <mxGeometry x="360" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-19" value="击杀先驱者*1&lt;div&gt;或取得进度格格不入之物&lt;br&gt;&lt;div&gt;奖励：红石块*2&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-7">
+          <mxGeometry x="520" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-21" value="获取下界之星*1&lt;div&gt;奖励：红石块*2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-7">
+          <mxGeometry x="520" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-13" value="原初世代" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="1080" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-24" value="原初的工匠" style="swimlane;whiteSpace=wrap;html=1;direction=north;" parent="ldvig654TYtwIduUOJSU-13" vertex="1">
+          <mxGeometry x="40" y="40" width="980" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ldvig654TYtwIduUOJSU-24" source="ldvig654TYtwIduUOJSU-26" target="ldvig654TYtwIduUOJSU-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-26" value="制作模具*6&lt;div&gt;制作部件制造台*1&lt;/div&gt;&lt;div&gt;制作工匠站*1&lt;/div&gt;&lt;div&gt;奖励：橡木原木*4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-28" value="组装石镐*1&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;奖励：原石*32&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="200" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-34" value="材料探索支线" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="40" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-39" value="制作玄武岩斧*1" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="360" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-35" value="制作骨质长剑*1" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="520" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-38" value="制作枯骨长剑*1" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="680" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ldvig654TYtwIduUOJSU-37" value="制作藤蔓长弓*1" style="rounded=1;whiteSpace=wrap;html=1;" parent="ldvig654TYtwIduUOJSU-24" vertex="1">
+          <mxGeometry x="200" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-1" value="狩猎者" style="swimlane;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="ldvig654TYtwIduUOJSU-13">
+          <mxGeometry x="40" y="440" width="980" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-2" value="维度旅行者支线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="40" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-3" value="制作骨质长剑*1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="360" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-4" value="制作藤蔓长弓*1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="680" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-5" value="制作枯骨长剑*1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="520" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-6" value="制作玄武岩斧*1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="200" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hWz7hjAkfqv1e704FuHN-23" value="制作燧石手里剑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hWz7hjAkfqv1e704FuHN-1">
+          <mxGeometry x="40" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
