@@ -31,6 +31,18 @@ ServerEvents.recipes(event => {
         A: 'minecraft:dirt',
         B: 'minecraft:sand'
     });
+    // 融合骨——普通骨头合成转换表
+    event.shaped(Item.of('born_in_chaos_v1:fused_bone',1),[
+        '_A_',
+        '_AA',
+        '_A_'
+    ],{
+        A: 'minecraft:bone'
+    });
+    event.shapeless(Item.of('minecraft:bone',4),[
+        'born_in_chaos_v1:fused_bone'
+    ]);
+
     // #####################################################工作台无序配方“shapeless”
     // 减少木板的基本获得、并用任意斧加工木板
     event.remove({id:"minecraft:oak_planks"});
