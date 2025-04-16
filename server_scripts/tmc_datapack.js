@@ -1,8 +1,9 @@
 // 配方修改
 ServerEvents.recipes(event => {
-    // #####################################################工作台有序配方“shaped”
+    /* 01_000001 原版工具与防具制作删除
     // 删除原版基础镐、斧、铲、剑的制作
-    // 开头以一对{}限定了代码块，let定义的array_i将仅在此块中生效；随后以for循环进行匹配配方id的删除。
+    开头以一对{}限定了代码块，let定义的array_i将仅在此块中生效；随后以for循环进行匹配配方id的删除。
+    */
     {
         let array_i = [
             "minecraft:wooden_axe",
@@ -83,6 +84,7 @@ ServerEvents.recipes(event => {
     event.smithing('twilightdelight:fiery_knife',
         'tconstruct:pattern','minecraft:stick','twilightforest:fiery_ingot'
     );
+
     // 铁甲,钻石甲锻造
     event.remove({id:'minecraft:iron_chestplate'});
     event.smithing('minecraft:iron_chestplate',
