@@ -6,15 +6,15 @@ ServerEvents.recipes(event => {
     允许以常见材料合成粘土
     */
     event.shaped(
-        Item.of('minecraft:clay_ball',8),
+        Item.of("minecraft:clay_ball",8),
         [
-            'AAA',
-            'ABA',
-            'AAA'
+            "AAA",
+            "ABA",
+            "AAA"
         ],
         {
-            A: 'minecraft:dirt',
-            B: 'minecraft:sand'
+            A: "minecraft:dirt",
+            B: "minecraft:sand"
         }
     );
 
@@ -26,13 +26,13 @@ ServerEvents.recipes(event => {
         {id:"minecraft:planks"}
     );
     event.shapeless(
-        Item.of('minecraft:planks',2),
-        ['#minecraft:logs']
+        Item.of("minecraft:planks",2),
+        ["#minecraft:logs"]
     );
     event.shapeless(
-        Item.of('minecraft:planks',8),
+        Item.of("minecraft:planks",8),
         [
-            '#minecraft:logs',
+            "#minecraft:logs",
             "#minecraft:axes"
         ]
     ).damageIngredient(
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     000003 玻璃==>遮光玻璃
     */
    // 01_000003
-    event.smoking('minecraft:tinted_glass', 'minecraft:glass');
+    event.smoking("minecraft:tinted_glass", "minecraft:glass");
 
     // #####################################################锻造台配方
 
